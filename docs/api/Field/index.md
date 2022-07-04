@@ -16,7 +16,6 @@ For more information on individual field types see:
 - [Datearray](/api/field/datearray)
 - [Datetime](/api/field/datetime)
 - [Email](/api/field/email)
-- [Embedly](/api/field/embedly)
 - [File](/api/field/file)
 - [Geopoint](/api/field/geopoint)
 - [Html](/api/field/html)

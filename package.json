@@ -38,7 +38,6 @@
     "dumb-passwords": "^0.2.1",
     "ejs": "^3.1.8",
     "elemental": "^0.6.1",
-    "embedly": "^2.1.1",
     "es6-promise": "^4.2.6",
     "express": "^4.17.0",
     "express-request-language": "^1.1.15",

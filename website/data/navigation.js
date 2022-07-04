@@ -192,9 +192,6 @@ export const api = {
 				label: 'AzureFile',
 				slug: '/azurefile',
 			}, {
-				label: 'Embedly',
-				slug: '/embedly',
-			}, {
 				label: 'File',
 				slug: '/file',
 			}, {
