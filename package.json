@@ -62,7 +62,7 @@
     "moment": "^2.29.3",
     "mongoose": "^6.4.2",
     "morgan": "^1.9.1",
-    "multer": "^1.4.4",
+    "multer": "^1.4.5-lts.1",
     "numeral": "^2.0.6",
     "object-assign": "^4.1.1",
     "qs": "^6.7.0",
@@ -110,7 +110,10 @@
     "updtr": "^4.0.0"
   },
   "overrides": {
-    "lodash": "$lodash"
+    "lodash": "$lodash",
+    "browserify-middleware": {
+      "glob-parent": "5.1.2"
+    }
   },
   "browserify": {
     "transform": [
