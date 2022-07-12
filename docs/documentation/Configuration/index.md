@@ -73,20 +73,6 @@ keystone.set('default region', 'au'); // optional, will limit autocomplete resul
 
 > The Places Geocoding API may only be used in conjunction with a Google map; geocoding results without displaying them on a map is prohibited. Please make sure your Keystone app complies with the Google Maps API License.
 
-### Embed.ly
-
-Embed.ly is a service that will parse a url (e.g. Youtube embed link) and return a whole lot of useful information, like the provider name, summary metadata, width and height of videos, as well as a clean link to use for embedding media in your views. They offer a free plan for up to 5,000 urls per month.
-
-The Embedly field type is an easy way to integrate their API with your KeystoneJS app.
-
-To configure KeystoneJS to support the Embed.ly API, simply sign up for an account, get your api key, and set the embedly api key option.
-
-This option will default to the EMBEDLY_API_KEY environment variable if it is set.
-
-```javascript
-keystone.set('embedly api key', 'your-key');
-```
-
 ## Disabling the Admin UI
 
 You can disable the Admin UI by setting the `headless` option to `true`.
